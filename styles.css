@@ -1,0 +1,47 @@
+body {
+    background-color: #1f1e1f;
+    color: #ffd3ba
+}
+p {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+a:link{
+    color: #f78088;
+    text-decoration: none;
+}
+a:visited {
+    color: #ef2d56;
+}
+a:hover {
+    color: #f78088;
+    text-decoration: underline;
+}
+a:active {
+    color: #40F99B;
+    text-decoration: underline;
+}
+
+
+table, th, td {
+    border: 2px solid #ffd3ba;
+    border-collapse: collapse;
+}
+th {
+    font-family: "Courier Prime", monospace;
+    font-weight: 700;
+    font-size: large;
+    padding: 8px;
+}
+td {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    padding: 8px;
+}
