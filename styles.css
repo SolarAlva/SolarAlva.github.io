@@ -15,7 +15,7 @@
 
 .grid-container > div {
   padding: 10px;
-  font-size: medium;
+  font-size: 50px;
 }
 
 body {
@@ -26,14 +26,14 @@ p {
     font-family: "Courier Prime", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: medium;
+    font-size: 12px;
     line-height: 1.5;
 }
 h1,h2,h3,h4,h5,h6 {
     padding-top: 10px;
     font-family: "Courier Prime", monospace;
     font-weight: 700;
-    font-size: x-large;
+    font-size: 24px;
     font-style: normal;
 }
 
@@ -41,7 +41,7 @@ a {
     font-family: "Courier Prime", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: medium;
+    font-size: 12px;
 }
 
 a:link{
@@ -68,13 +68,13 @@ table, th, td {
 th {
     font-family: "Courier Prime", monospace;
     font-weight: 700;
-    font-size: large;
+    font-size: 16px;
     padding: 8px;
 }
 td {
     font-family: "Courier Prime", monospace;
     font-weight: 400;
-    font-size: medium;
+    font-size: 12px;
     padding: 8px;
 }
 
