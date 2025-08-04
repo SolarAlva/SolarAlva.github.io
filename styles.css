@@ -1,11 +1,13 @@
 body {
     background-color: #1f1e1f;
-    color: #ffd3ba
+    color: #ffd3ba;
 }
 p {
     font-family: "Courier Prime", monospace;
     font-weight: 400;
     font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: "Courier Prime", monospace;
@@ -44,4 +46,10 @@ td {
     font-family: "Courier Prime", monospace;
     font-weight: 400;
     padding: 8px;
+}
+
+#bottomright {
+  position:absolute;
+  bottom: 0;
+  right: 0;
 }
