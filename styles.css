@@ -58,9 +58,8 @@ td {
 }
 
 #bottomright {
-    position: fixed;
-    bottom: 0;
-    right: 0;
+    float: right;
+    margin-top:20px;
     padding: 10px;
     background-color: #ffd3ba;
     color: #1f1e1f;   
