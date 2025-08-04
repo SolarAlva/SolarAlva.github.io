@@ -1,3 +1,23 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'main'
+    'footer';
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.grid-container > div {
+  padding: 10px;
+  font-size: medium;
+}
+
 body {
     background-color: #1f1e1f;
     color: #ffd3ba;
@@ -54,12 +74,16 @@ th {
 td {
     font-family: "Courier Prime", monospace;
     font-weight: 400;
+    font-size: medium;
     padding: 8px;
 }
 
-#bottomright {
-    float: right;
-    margin-top:20px;
-    padding: 10px;
-    background-color: #48403C;  
+.top {
+    grid-area: main;
+    text-align: left;
+}
+
+.bottom {
+    grid-area: footer;
+    text-align: right;
 }
