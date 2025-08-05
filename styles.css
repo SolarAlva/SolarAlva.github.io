@@ -25,14 +25,14 @@ body {
     color: #ffd3ba;
 }
 p,td {
-    font-size: 14px;
+    font-size: 1.6vw;
     line-height: 1.5;
 }
 
 h1,h2,h3,h4,h5,h6 {
     padding-top: 20px;
     padding-bottom: 10px;
-    font-size: 30px;
+    font-size: 2.4vw;
 }
 
 a:link{
@@ -57,7 +57,7 @@ table, th, td {
     border-collapse: collapse;
 }
 th {
-    font-size: 18px;
+    font-size: 1.8vw;
     padding: 8px;
 }
 td {
@@ -66,9 +66,15 @@ td {
 
 .top {
     grid-area: main;
+    text-align: top;
     text-align: left;
 }
 .bottom {
     grid-area: footer;
     text-align: right;
+}
+.bottomlinks {
+    float: right; 
+    padding: 10px; 
+    background-color: #48403C;
 }
