@@ -73,8 +73,3 @@ td {
     grid-area: footer;
     text-align: right;
 }
-.bottomlinks {
-    float: right; 
-    padding: 10px; 
-    background-color: #48403C;
-}
