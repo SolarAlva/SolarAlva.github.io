@@ -15,7 +15,7 @@
 
 .grid-container > div {
   padding: 10px;
-  font-size: 50px;
+  font-size: normal;
 }
 
 body {
@@ -25,14 +25,14 @@ body {
     color: #ffd3ba;
 }
 p,td {
-    font-size: 1.6vw;
+    font-size: max(1.6vw, 16px);
     line-height: 1.5;
 }
 
 h1,h2,h3,h4,h5,h6 {
     padding-top: 20px;
     padding-bottom: 10px;
-    font-size: 2.4vw;
+    font-size: max(2.4vw, 24px);
 }
 
 a:link{
@@ -51,13 +51,15 @@ a:active {
     text-decoration: underline;
 }
 
-
+table {
+    width: 100%;
+}
 table, th, td {
     border: 2px solid #ffd3ba;
     border-collapse: collapse;
 }
 th {
-    font-size: 1.8vw;
+    font-size: max(1.8vw, 18px);
     padding: 8px;
 }
 td {
